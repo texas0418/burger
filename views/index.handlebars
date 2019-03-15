@@ -1,5 +1,4 @@
-<h1>Burgers</h1>
-
+<div class="image"></div>​
 <h2>Choose a Burger to Eat</h2>
 
 <ul>
@@ -15,7 +14,7 @@
 <ul>
   {{#each burger}}
     {{#if devoured}}
-      {{> burgers/burger-block devoured=false}}
+      {{> burgers/burger-block}}
     {{/if}}
   {{/each}}
 </ul>
